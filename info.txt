@@ -1,0 +1,10 @@
+This is how you connect to github after creating local repo:
+
+1. git init --> to create your local repo
+2. You make the repo on github and copy its url and then you do: git remote add origin https://yourURL
+3. stage and commit changes
+4. push your change to the remote repo: git push -u origin main
+5. git branch name --> to create another branch
+6. git checkout name --> to switch to it
+7. stage and commit any new changes
+8. then push the new branch
